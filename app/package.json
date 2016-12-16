@@ -1,12 +1,12 @@
 {
-  "name": "dva-boilerplate-electron",
+  "name": "FlowerPassword",
   "version": "0.1.0",
-  "productName": "Boilerplate",
-  "description": "Yet another boilerplate for dva.",
+  "productName": "FlowerPassword",
+  "description": "Flower Password Desktop App",
   "main": "dist/main.js",
   "author": {
-    "name": "chencheng",
-    "email": "sorrycc@gmail.com"
+    "name": "xLsDg",
+    "email": "xlsdg@qq.com"
   },
   "dependencies": {
     "electron-config": "^0.2.1",

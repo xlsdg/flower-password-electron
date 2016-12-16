@@ -1,8 +1,8 @@
 {
   "private": true,
   "author": {
-    "name": "chencheng",
-    "email": "sorrycc@gmail.com"
+    "name": "xLsDg",
+    "email": "xlsdg@qq.com"
   },
   "scripts": {
     "start": "electron app/dist/main",
@@ -19,8 +19,8 @@
     "precommit": "npm run lint"
   },
   "build": {
-    "appId": "com.sorrycc.dva-boilerplate",
-    "category": "public.app-category.developer-tools",
+    "appId": "org.xlsdg.flowerpassword",
+    "category": "public.app-category.utilities",
     "asar": false
   },
   "devDependencies": {
