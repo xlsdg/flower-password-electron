@@ -1,14 +1,18 @@
 import React from 'react';
 import { connect } from 'dva';
-import { Button } from 'antd';
+import { Row, Col, Input, Button } from 'antd';
 
 import styles from './index.css';
 
 function IndexPage() {
   return (
-    <div>
-      <Button>Flower Password</Button>
-    </div>
+    <Row type="flex" justify="space-around" align="middle" style={{height: '100%'}}>
+      <Col span={8}>
+        <Input placeholder="记忆密码" />
+        <Input placeholder="区分代号" />
+        <Button style={{width: '100%'}}>生成密码（点击复制）</Button>
+      </Col>
+    </Row>
   );
 }
 

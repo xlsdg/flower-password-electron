@@ -2,13 +2,81 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Title</title>
+  <title>花密 Flower Password</title>
   <style>
-    html, body {
-      height: 100%;
+    .fn-clear {
+      *zoom: 1;
     }
-    #root {
+
+    .fn-clear:before,
+    .fn-clear:after {
+      content: '';
+      display: table;
+    }
+
+    .fn-clear:after {
+      clear: both;
+    }
+
+    .fn-left {
+      float: left;
+    }
+
+    .fn-right {
+      float: right;
+    }
+
+    .fn-hide {
+      display: none;
+    }
+
+    .fn-show {
+      display: block;
+    }
+
+    .text-left {
+      text-align: left;
+    }
+
+    .text-center {
+      text-align: center;
+    }
+
+    .text-right {
+      text-align: right;
+    }
+
+    *, :after, :before {
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      -ms-box-sizing: border-box;
+      -o-box-sizing: border-box;
+      box-sizing: border-box;
+      -webkit-tap-highlight-color: transparent;
+      tap-highlight-color: transparent;
+    }
+
+    .disabled-select {
+      -ms-user-select: none;
+      -moz-user-select: none;
+      -webkit-user-select: none;
+      user-select: none;
+    }
+
+    .no-appear {
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      -ms-appearance: none;
+      -o-appearance: none;
+      appearance: none;
+    }
+
+    #root, body, html {
+      width: 100%;
       height: 100%;
+      margin: 0;
+      padding: 0;
+      -webkit-text-size-adjust: none
     }
   </style>
   <link rel="stylesheet" href="../dist/renderer.css" />
